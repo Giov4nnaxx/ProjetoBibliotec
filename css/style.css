@@ -1,0 +1,72 @@
+/* E9F0EF0 - menta */
+
+/* @font-face kit by Fonts2u (https://fonts2u.com) */
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("Montserrat-Bold.eot?") format("eot"), url("Montserrat-Bold.woff") format("woff"), url("Montserrat-Bold.ttf") format("truetype"), url("Montserrat-Bold.svg#Montserrat-Bold") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --ice: #E9F0EF;
+}
+
+body {
+    background-color: var(--ice);
+}
+
+.biblioteca-image {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 35vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.main-container {
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.main-container .content {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 1.5rem;
+    color: #000000;
+    text-align: center;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 80%;      
+    padding: 15px;   
+    font-size: 1.1rem;
+    margin-bottom: 1px; 
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+}
+.login {
+    width: 65vw;
+    display: flex;              
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;        
+    margin-top: 30vh;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    height: 100px;
+}
